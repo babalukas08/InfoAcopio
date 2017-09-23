@@ -20,7 +20,6 @@ def basic_pods
     #pod 'AlamofireObjectMapper', '~> 2.1'
     pod 'AlamofireImage', '~> 3.2.0'
     pod 'RealmSwift'
-    pod 'WMPageController-Swift', '~> 1.3.3'
     pod 'Firebase/AppIndexing'
     pod 'SnapKit', '~> 3.2.0'
     pod 'NibDesignable'
