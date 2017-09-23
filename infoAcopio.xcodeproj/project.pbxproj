@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0E07EDF31F764E510006D5F2 /* GatheringCdmxModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07EDF21F764E510006D5F2 /* GatheringCdmxModel.swift */; };
+		0E07EDF51F7656E40006D5F2 /* CollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07EDF41F7656E40006D5F2 /* CollectionModel.swift */; };
+		0E07EDF71F76570F0006D5F2 /* CollectionSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07EDF61F76570F0006D5F2 /* CollectionSectionModel.swift */; };
+		0E07EDF91F7657230006D5F2 /* CollectionItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07EDF81F7657230006D5F2 /* CollectionItemModel.swift */; };
+		0E07EDFB1F76575C0006D5F2 /* ModGenericCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E07EDFA1F76575C0006D5F2 /* ModGenericCollectionViewDataSource.swift */; };
 		0E0F50CF1F76483700C2FB0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F50CE1F76483700C2FB0E /* AppDelegate.swift */; };
 		0E0F50D11F76483700C2FB0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0F50D01F76483700C2FB0E /* ViewController.swift */; };
 		0E0F50D41F76483700C2FB0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0F50D21F76483700C2FB0E /* Main.storyboard */; };
@@ -21,6 +25,10 @@
 
 /* Begin PBXFileReference section */
 		0E07EDF21F764E510006D5F2 /* GatheringCdmxModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GatheringCdmxModel.swift; sourceTree = "<group>"; };
+		0E07EDF41F7656E40006D5F2 /* CollectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionModel.swift; sourceTree = "<group>"; };
+		0E07EDF61F76570F0006D5F2 /* CollectionSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionSectionModel.swift; sourceTree = "<group>"; };
+		0E07EDF81F7657230006D5F2 /* CollectionItemModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionItemModel.swift; sourceTree = "<group>"; };
+		0E07EDFA1F76575C0006D5F2 /* ModGenericCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModGenericCollectionViewDataSource.swift; sourceTree = "<group>"; };
 		0E0F50CB1F76483700C2FB0E /* infoAcopio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = infoAcopio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0F50CE1F76483700C2FB0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E0F50D01F76483700C2FB0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				0E07EDF21F764E510006D5F2 /* GatheringCdmxModel.swift */,
+				0E07EDF41F7656E40006D5F2 /* CollectionModel.swift */,
+				0E07EDF61F76570F0006D5F2 /* CollectionSectionModel.swift */,
+				0E07EDF81F7657230006D5F2 /* CollectionItemModel.swift */,
+				0E07EDFA1F76575C0006D5F2 /* ModGenericCollectionViewDataSource.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -271,9 +283,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E0F50D11F76483700C2FB0E /* ViewController.swift in Sources */,
+				0E07EDF71F76570F0006D5F2 /* CollectionSectionModel.swift in Sources */,
+				0E07EDFB1F76575C0006D5F2 /* ModGenericCollectionViewDataSource.swift in Sources */,
 				0E07EDF31F764E510006D5F2 /* GatheringCdmxModel.swift in Sources */,
+				0E07EDF91F7657230006D5F2 /* CollectionItemModel.swift in Sources */,
 				0E0F50D71F76483700C2FB0E /* infoAcopio.xcdatamodeld in Sources */,
 				0E0F50CF1F76483700C2FB0E /* AppDelegate.swift in Sources */,
+				0E07EDF51F7656E40006D5F2 /* CollectionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
