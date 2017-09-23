@@ -1,0 +1,6 @@
+framework module Pods_infoAcopio_infoAcopio {
+  umbrella header "Pods-infoAcopio-infoAcopio-umbrella.h"
+
+  export *
+  module * { export * }
+}
