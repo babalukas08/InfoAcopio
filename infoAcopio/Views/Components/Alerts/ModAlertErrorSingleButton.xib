@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModAlertErrorSingleButton" customModule="LinioUIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="btClose" destination="aj8-l1-DKo" id="505-Yy-ZEj"/>
+                <outlet property="btOk" destination="2TV-P4-nif" id="FX7-jE-eRq"/>
+                <outlet property="detailsLabel" destination="rQ4-9q-tbL" id="NIc-bY-if3"/>
+                <outlet property="errorLabel" destination="rIf-Bc-eWX" id="ijh-3q-yd4"/>
+                <outlet property="imageView" destination="KH6-Zx-mOx" id="Tli-aZ-TpG"/>
+                <outlet property="titleLabel" destination="7gX-yu-psA" id="dW5-f8-eVA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StylableView" customModule="LinioUIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="413"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alertImage" translatesAutoresizingMaskIntoConstraints="NO" id="KH6-Zx-mOx">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="uDC-DG-8vz"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aj8-l1-DKo">
+                    <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="LNV-Y2-LEt"/>
+                        <constraint firstAttribute="width" constant="48" id="ls4-JD-VgA"/>
+                    </constraints>
+                    <state key="normal" image="ndIcCloseWhite32"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cual es el nombre?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gX-yu-psA" customClass="Heading" customModule="LinioUIKit" customModuleProvider="target">
+                    <rect key="frame" x="16" y="218" width="238" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="generalH3"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Proin porta sapien quis dui blandit vestibulum. Mauris lacinia odio." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQ4-9q-tbL" customClass="Heading" customModule="LinioUIKit" customModuleProvider="target">
+                    <rect key="frame" x="16" y="245.5" width="238" height="34.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="textBaseAccent"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2TV-P4-nif" customClass="DefaultButton" customModule="LinioUIKit" customModuleProvider="target">
+                    <rect key="frame" x="16" y="318" width="238" height="40"/>
+                    <state key="normal" title="OK"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="secondaryActive"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="failed to connect to apli.linio.com/107.23.182.123 (port 443) after 1000" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIf-Bc-eWX" customClass="Heading" customModule="LinioUIKit" customModuleProvider="target">
+                    <rect key="frame" x="16" y="370" width="238" height="13.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="textBaseLightXs"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KH6-Zx-mOx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1Tw-52-IKS"/>
+                <constraint firstAttribute="trailing" secondItem="2TV-P4-nif" secondAttribute="trailing" constant="16" id="39a-AI-QMS"/>
+                <constraint firstItem="aj8-l1-DKo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="95D-gu-aEd"/>
+                <constraint firstAttribute="trailing" secondItem="rIf-Bc-eWX" secondAttribute="trailing" constant="16" id="IiO-Aj-Uf2"/>
+                <constraint firstItem="2TV-P4-nif" firstAttribute="top" relation="greaterThanOrEqual" secondItem="rQ4-9q-tbL" secondAttribute="bottom" constant="37" id="KXq-WP-5Vd"/>
+                <constraint firstItem="7gX-yu-psA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="Lk2-vf-ZUu"/>
+                <constraint firstAttribute="trailing" secondItem="rQ4-9q-tbL" secondAttribute="trailing" constant="16" id="Mcf-Po-b0L"/>
+                <constraint firstItem="7gX-yu-psA" firstAttribute="top" secondItem="KH6-Zx-mOx" secondAttribute="bottom" constant="18" id="Rgs-j9-31v"/>
+                <constraint firstItem="aj8-l1-DKo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xjt-WS-0mt"/>
+                <constraint firstItem="rQ4-9q-tbL" firstAttribute="top" secondItem="7gX-yu-psA" secondAttribute="bottom" constant="8" id="dCP-2s-Zbb"/>
+                <constraint firstItem="rIf-Bc-eWX" firstAttribute="top" secondItem="2TV-P4-nif" secondAttribute="bottom" constant="12" id="hnX-6h-Xo2"/>
+                <constraint firstItem="rQ4-9q-tbL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="jA3-YF-9Ma"/>
+                <constraint firstAttribute="bottom" secondItem="rIf-Bc-eWX" secondAttribute="bottom" constant="29" id="nCI-cU-mnz"/>
+                <constraint firstItem="2TV-P4-nif" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="rJF-0w-ebz"/>
+                <constraint firstAttribute="trailing" secondItem="KH6-Zx-mOx" secondAttribute="trailing" id="udF-NG-rzO"/>
+                <constraint firstItem="rIf-Bc-eWX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="vvw-2U-29P"/>
+                <constraint firstItem="KH6-Zx-mOx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="wxH-eL-1RE"/>
+                <constraint firstAttribute="trailing" secondItem="7gX-yu-psA" secondAttribute="trailing" constant="16" id="xcg-jW-thx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="roundBorderless20"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="25" y="50.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="alertImage" width="270" height="200"/>
+        <image name="ndIcCloseWhite32" width="32" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModSnackBarGeneral">
+            <connections>
+                <outlet property="imgSnackBarAlert" destination="Bdv-Jd-SvM" id="7mw-xw-Qh4"/>
+                <outlet property="progressBar" destination="oAC-Na-Kac" id="xcj-6x-SOC"/>
+                <outlet property="progressBarWidthContraint" destination="qr9-cd-FJu" id="brQ-0R-JrF"/>
+                <outlet property="textSnackBarAlert" destination="wDp-OL-UTo" id="RRQ-2W-Ioa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oAC-Na-Kac">
+                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="2"/>
+                    <color key="backgroundColor" red="0.94117647059999998" green="0.38431372549999998" blue="0.57254901960000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="k73-o5-DNM"/>
+                        <constraint firstAttribute="width" id="qr9-cd-FJu"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SZo-UO-Zbp">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="vLv-Tc-pMp"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bdv-Jd-SvM">
+                    <rect key="frame" x="12" y="17" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="bXK-fV-3aO"/>
+                        <constraint firstAttribute="height" constant="40" id="rZq-sz-x7S"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDp-OL-UTo" customClass="Heading" customModule="LinioUIKit" customModuleProvider="target">
+                    <rect key="frame" x="67" y="21" width="292" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="1Ox-u5-OBP"/>
+                    </constraints>
+                    <string key="text">Aca le explicariamos al usuario que paso, onda
+eso que hiciste salio mal bro, es una lastima</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="textBaseAccentS"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="wDp-OL-UTo" secondAttribute="trailing" constant="16" id="HDs-cz-6rI"/>
+                <constraint firstAttribute="bottom" secondItem="wDp-OL-UTo" secondAttribute="bottom" constant="13" id="JH4-Ys-1EM"/>
+                <constraint firstItem="oAC-Na-Kac" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="K5c-Pz-04d"/>
+                <constraint firstItem="oAC-Na-Kac" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="O0K-yb-PtM"/>
+                <constraint firstItem="SZo-UO-Zbp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OuC-Xn-gFr"/>
+                <constraint firstAttribute="bottom" secondItem="Bdv-Jd-SvM" secondAttribute="bottom" constant="17" id="Tea-8C-Ic7"/>
+                <constraint firstAttribute="trailing" secondItem="SZo-UO-Zbp" secondAttribute="trailing" id="VX8-1V-YEa"/>
+                <constraint firstItem="Bdv-Jd-SvM" firstAttribute="top" secondItem="SZo-UO-Zbp" secondAttribute="bottom" constant="16" id="aZ7-oQ-qWd"/>
+                <constraint firstItem="wDp-OL-UTo" firstAttribute="top" secondItem="SZo-UO-Zbp" secondAttribute="bottom" constant="20" id="b7T-5x-aAO"/>
+                <constraint firstItem="SZo-UO-Zbp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cvO-Ry-OK9"/>
+                <constraint firstItem="wDp-OL-UTo" firstAttribute="leading" secondItem="Bdv-Jd-SvM" secondAttribute="trailing" constant="15" id="d88-D0-mOz"/>
+                <constraint firstItem="Bdv-Jd-SvM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="xhs-7k-ceg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </view>
+    </objects>
+</document>

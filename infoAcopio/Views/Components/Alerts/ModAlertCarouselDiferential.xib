@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModAlertCarouselDiferential" customModule="LinioUIKit" customModuleProvider="target">
+            <connections>
+                <outlet property="btClose" destination="IIu-SP-oUI" id="Ytw-Kg-DsD"/>
+                <outlet property="detailsTextView" destination="Kf6-tH-lqg" id="EZq-rD-tfI"/>
+                <outlet property="imageView" destination="qtP-U0-HGz" id="PBs-io-Txf"/>
+                <outlet property="pageControl" destination="B7b-q4-dTA" id="Fxu-Sk-xEl"/>
+                <outlet property="titleLabel" destination="OA7-Zd-5JC" id="4y8-gC-e3z"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Xa9-11-cUM" customClass="StylableView" customModule="LinioUIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rzJ-tS-1aq" userLabel="background">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="480"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diferential_banner_freeshipping" translatesAutoresizingMaskIntoConstraints="NO" id="qtP-U0-HGz">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="8qQ-Cn-Z00"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cual es el nombre?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OA7-Zd-5JC" customClass="Heading" customModule="LinioUIKit" customModuleProvider="target">
+                    <rect key="frame" x="16" y="158" width="238" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="generalH3"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Kf6-tH-lqg" customClass="StylableTextView" customModule="LinioUIKit" customModuleProvider="target">
+                    <rect key="frame" x="16" y="188.5" width="238" height="228"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="228" id="X3j-Ph-tC2"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="textBaseAccentCentered"/>
+                    </userDefinedRuntimeAttributes>
+                </textView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="B7b-q4-dTA">
+                    <rect key="frame" x="116" y="411.5" width="39" height="48.5"/>
+                    <color key="pageIndicatorTintColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="currentPageIndicatorTintColor" red="0.28627450980000002" green="0.75686274509999996" blue="0.55294117649999996" alpha="1" colorSpace="calibratedRGB"/>
+                </pageControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIu-SP-oUI">
+                    <rect key="frame" x="8" y="8" width="32" height="32"/>
+                    <state key="normal" image="ndIc32CloseWhite"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="B7b-q4-dTA" secondAttribute="bottom" constant="20" id="1FN-oO-dmO"/>
+                <constraint firstItem="B7b-q4-dTA" firstAttribute="top" secondItem="Kf6-tH-lqg" secondAttribute="bottom" constant="-5" id="2Hi-Gc-rGL"/>
+                <constraint firstAttribute="trailing" secondItem="Kf6-tH-lqg" secondAttribute="trailing" constant="16" id="477-8I-Rhp"/>
+                <constraint firstItem="OA7-Zd-5JC" firstAttribute="leading" secondItem="Xa9-11-cUM" secondAttribute="leading" constant="16" id="DGp-ft-4E1"/>
+                <constraint firstItem="qtP-U0-HGz" firstAttribute="top" secondItem="Xa9-11-cUM" secondAttribute="top" id="Pps-lX-4bZ"/>
+                <constraint firstItem="rzJ-tS-1aq" firstAttribute="leading" secondItem="Xa9-11-cUM" secondAttribute="leading" id="S3i-Mx-MKK"/>
+                <constraint firstItem="IIu-SP-oUI" firstAttribute="leading" secondItem="Xa9-11-cUM" secondAttribute="leading" constant="8" id="T4j-QJ-3ZS"/>
+                <constraint firstAttribute="trailing" secondItem="qtP-U0-HGz" secondAttribute="trailing" id="Zd4-gH-1lh"/>
+                <constraint firstItem="rzJ-tS-1aq" firstAttribute="top" secondItem="Xa9-11-cUM" secondAttribute="top" id="b7W-i3-eW0"/>
+                <constraint firstAttribute="trailing" secondItem="rzJ-tS-1aq" secondAttribute="trailing" id="bsE-R1-bbl"/>
+                <constraint firstItem="IIu-SP-oUI" firstAttribute="top" secondItem="Xa9-11-cUM" secondAttribute="top" constant="8" id="cdW-kT-l38"/>
+                <constraint firstAttribute="bottom" secondItem="rzJ-tS-1aq" secondAttribute="bottom" id="d36-Dj-9cB"/>
+                <constraint firstItem="OA7-Zd-5JC" firstAttribute="top" secondItem="qtP-U0-HGz" secondAttribute="bottom" constant="18" id="iTM-Zj-3CT"/>
+                <constraint firstItem="B7b-q4-dTA" firstAttribute="centerX" secondItem="Xa9-11-cUM" secondAttribute="centerX" id="jxk-W5-vyM"/>
+                <constraint firstItem="Kf6-tH-lqg" firstAttribute="leading" secondItem="Xa9-11-cUM" secondAttribute="leading" constant="16" id="kwI-Tw-2YL"/>
+                <constraint firstItem="Kf6-tH-lqg" firstAttribute="top" secondItem="OA7-Zd-5JC" secondAttribute="bottom" constant="10" id="oHH-6I-no4"/>
+                <constraint firstAttribute="trailing" secondItem="OA7-Zd-5JC" secondAttribute="trailing" constant="16" id="taK-Il-aO4"/>
+                <constraint firstItem="qtP-U0-HGz" firstAttribute="leading" secondItem="Xa9-11-cUM" secondAttribute="leading" id="w3I-Wt-cZG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="roundBorderless20"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-15" y="-161"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="diferential_banner_freeshipping" width="270" height="140"/>
+        <image name="ndIc32CloseWhite" width="32" height="32"/>
+    </resources>
+</document>

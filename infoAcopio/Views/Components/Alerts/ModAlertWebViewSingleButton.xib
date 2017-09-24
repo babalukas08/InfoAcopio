@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ModAlertWebViewSingleButton">
+            <connections>
+                <outlet property="btClose" destination="YwJ-hX-gJg" id="jQV-03-ecu"/>
+                <outlet property="btOk" destination="gvE-kp-09N" id="aba-Dm-XnF"/>
+                <outlet property="imageView" destination="5I7-5H-79u" id="43K-En-X3F"/>
+                <outlet property="webView" destination="tH3-jk-tw0" id="cDg-um-fHQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StylableView" customModule="LinioUIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="270" height="420"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alertImage" translatesAutoresizingMaskIntoConstraints="NO" id="5I7-5H-79u">
+                    <rect key="frame" x="0.0" y="0.0" width="270" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="JFF-Vs-eQ5"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwJ-hX-gJg">
+                    <rect key="frame" x="0.0" y="0.0" width="48" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="7oA-Mh-10v"/>
+                        <constraint firstAttribute="width" constant="48" id="zD9-ia-Gpy"/>
+                    </constraints>
+                    <state key="normal" image="ndIcCloseWhite32"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvE-kp-09N" customClass="DefaultButton" customModule="LinioUIKit" customModuleProvider="target">
+                    <rect key="frame" x="16" y="372" width="238" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Mwq-EA-upR"/>
+                    </constraints>
+                    <state key="normal" title="Entendido"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="styleName" value="secondaryActive"/>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tH3-jk-tw0">
+                    <rect key="frame" x="0.0" y="158" width="270" height="206"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="206" id="C8G-5T-ke6"/>
+                    </constraints>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tH3-jk-tw0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0wj-G0-57Z"/>
+                <constraint firstAttribute="trailing" secondItem="tH3-jk-tw0" secondAttribute="trailing" id="6BP-7R-0iS"/>
+                <constraint firstAttribute="trailing" secondItem="gvE-kp-09N" secondAttribute="trailing" constant="16" id="6sC-N9-HuZ"/>
+                <constraint firstItem="YwJ-hX-gJg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F6y-7L-nyM"/>
+                <constraint firstItem="gvE-kp-09N" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="FIO-Fv-ODW"/>
+                <constraint firstAttribute="bottom" secondItem="gvE-kp-09N" secondAttribute="bottom" constant="8" id="G27-qc-vqq"/>
+                <constraint firstAttribute="trailing" secondItem="5I7-5H-79u" secondAttribute="trailing" id="HCh-I6-ip8"/>
+                <constraint firstItem="5I7-5H-79u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="TJY-zZ-cEa"/>
+                <constraint firstItem="5I7-5H-79u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b6X-Jy-i8T"/>
+                <constraint firstItem="YwJ-hX-gJg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="c3K-vI-ktd"/>
+                <constraint firstItem="gvE-kp-09N" firstAttribute="top" secondItem="tH3-jk-tw0" secondAttribute="bottom" constant="8" id="h0A-cH-MQz"/>
+                <constraint firstItem="tH3-jk-tw0" firstAttribute="top" secondItem="5I7-5H-79u" secondAttribute="bottom" constant="8" id="pCb-QL-41D"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <integer key="value" value="6"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+        </view>
+    </objects>
+    <resources>
+        <image name="alertImage" width="270" height="200"/>
+        <image name="ndIcCloseWhite32" width="32" height="32"/>
+    </resources>
+</document>

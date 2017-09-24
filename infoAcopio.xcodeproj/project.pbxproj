@@ -37,6 +37,32 @@
 		0E49EF401F78378A00F0F01D /* RatingComponent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF3E1F78378A00F0F01D /* RatingComponent.xib */; };
 		0E49EF421F7837BA00F0F01D /* Stylable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF411F7837BA00F0F01D /* Stylable.swift */; };
 		0E49EF441F7837E700F0F01D /* RoundRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF431F7837E700F0F01D /* RoundRect.swift */; };
+		0E49EF471F783A5700F0F01D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF461F783A5700F0F01D /* BaseViewController.swift */; };
+		0E49EF491F783C0B00F0F01D /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF481F783C0B00F0F01D /* AlertViewController.swift */; };
+		0E49EF5A1F783C6000F0F01D /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF4B1F783C6000F0F01D /* AlertPresenter.swift */; };
+		0E49EF5B1F783C6000F0F01D /* ModAlertCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF4C1F783C6000F0F01D /* ModAlertCarousel.swift */; };
+		0E49EF5C1F783C6000F0F01D /* ModAlertCarousel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF4D1F783C6000F0F01D /* ModAlertCarousel.xib */; };
+		0E49EF5D1F783C6000F0F01D /* ModAlertCarouselDiferential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF4E1F783C6000F0F01D /* ModAlertCarouselDiferential.swift */; };
+		0E49EF5E1F783C6000F0F01D /* ModAlertCarouselDiferential.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF4F1F783C6000F0F01D /* ModAlertCarouselDiferential.xib */; };
+		0E49EF5F1F783C6000F0F01D /* ModAlertDoubleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF501F783C6000F0F01D /* ModAlertDoubleButton.swift */; };
+		0E49EF601F783C6000F0F01D /* ModAlertDoubleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF511F783C6000F0F01D /* ModAlertDoubleButton.xib */; };
+		0E49EF611F783C6000F0F01D /* ModAlertErrorSingleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF521F783C6000F0F01D /* ModAlertErrorSingleButton.swift */; };
+		0E49EF621F783C6000F0F01D /* ModAlertErrorSingleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF531F783C6000F0F01D /* ModAlertErrorSingleButton.xib */; };
+		0E49EF631F783C6000F0F01D /* ModAlertInputSingleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF541F783C6000F0F01D /* ModAlertInputSingleButton.swift */; };
+		0E49EF641F783C6000F0F01D /* ModAlertInputSingleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF551F783C6000F0F01D /* ModAlertInputSingleButton.xib */; };
+		0E49EF651F783C6000F0F01D /* ModAlertSingleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF561F783C6000F0F01D /* ModAlertSingleButton.swift */; };
+		0E49EF661F783C6000F0F01D /* ModAlertSingleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF571F783C6000F0F01D /* ModAlertSingleButton.xib */; };
+		0E49EF671F783C6000F0F01D /* ModAlertWebViewSingleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF581F783C6000F0F01D /* ModAlertWebViewSingleButton.swift */; };
+		0E49EF681F783C6000F0F01D /* ModAlertWebViewSingleButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF591F783C6000F0F01D /* ModAlertWebViewSingleButton.xib */; };
+		0E49EF6B1F783D1300F0F01D /* CardBounceTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF6A1F783D1300F0F01D /* CardBounceTransition.swift */; };
+		0E49EF6D1F783D8E00F0F01D /* Heading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF6C1F783D8E00F0F01D /* Heading.swift */; };
+		0E49EF6F1F783E4400F0F01D /* DefaultButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF6E1F783E4400F0F01D /* DefaultButton.swift */; };
+		0E49EF711F783E7000F0F01D /* StylableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF701F783E7000F0F01D /* StylableTextField.swift */; };
+		0E49EF741F783EB900F0F01D /* ModSnackBarGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF721F783EB900F0F01D /* ModSnackBarGeneral.swift */; };
+		0E49EF751F783EB900F0F01D /* ModSnackBarGeneral.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E49EF731F783EB900F0F01D /* ModSnackBarGeneral.xib */; };
+		0E49EF771F783F2700F0F01D /* StylableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF761F783F2700F0F01D /* StylableTextView.swift */; };
+		0E49EF791F783F6000F0F01D /* SimpleStylableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF781F783F6000F0F01D /* SimpleStylableButton.swift */; };
+		0E49EF7B1F783FCD00F0F01D /* Dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E49EF7A1F783FCD00F0F01D /* Dispatch.swift */; };
 		17814C71BA30F18A037CC270 /* Pods_infoAcopio_infoAcopio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD599EB80A753A848A6387F /* Pods_infoAcopio_infoAcopio.framework */; };
 		52201EBB80DD426518E0B922 /* Pods_infoAcopio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C36AFADF15494C84E4BFAC /* Pods_infoAcopio.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +100,32 @@
 		0E49EF3E1F78378A00F0F01D /* RatingComponent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RatingComponent.xib; sourceTree = "<group>"; };
 		0E49EF411F7837BA00F0F01D /* Stylable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stylable.swift; sourceTree = "<group>"; };
 		0E49EF431F7837E700F0F01D /* RoundRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundRect.swift; sourceTree = "<group>"; };
+		0E49EF461F783A5700F0F01D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0E49EF481F783C0B00F0F01D /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		0E49EF4B1F783C6000F0F01D /* AlertPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		0E49EF4C1F783C6000F0F01D /* ModAlertCarousel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModAlertCarousel.swift; sourceTree = "<group>"; };
+		0E49EF4D1F783C6000F0F01D /* ModAlertCarousel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModAlertCarousel.xib; sourceTree = "<group>"; };
+		0E49EF4E1F783C6000F0F01D /* ModAlertCarouselDiferential.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModAlertCarouselDiferential.swift; sourceTree = "<group>"; };
+		0E49EF4F1F783C6000F0F01D /* ModAlertCarouselDiferential.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModAlertCarouselDiferential.xib; sourceTree = "<group>"; };
+		0E49EF501F783C6000F0F01D /* ModAlertDoubleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModAlertDoubleButton.swift; sourceTree = "<group>"; };
+		0E49EF511F783C6000F0F01D /* ModAlertDoubleButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModAlertDoubleButton.xib; sourceTree = "<group>"; };
+		0E49EF521F783C6000F0F01D /* ModAlertErrorSingleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModAlertErrorSingleButton.swift; sourceTree = "<group>"; };
+		0E49EF531F783C6000F0F01D /* ModAlertErrorSingleButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModAlertErrorSingleButton.xib; sourceTree = "<group>"; };
+		0E49EF541F783C6000F0F01D /* ModAlertInputSingleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModAlertInputSingleButton.swift; sourceTree = "<group>"; };
+		0E49EF551F783C6000F0F01D /* ModAlertInputSingleButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModAlertInputSingleButton.xib; sourceTree = "<group>"; };
+		0E49EF561F783C6000F0F01D /* ModAlertSingleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModAlertSingleButton.swift; sourceTree = "<group>"; };
+		0E49EF571F783C6000F0F01D /* ModAlertSingleButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModAlertSingleButton.xib; sourceTree = "<group>"; };
+		0E49EF581F783C6000F0F01D /* ModAlertWebViewSingleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModAlertWebViewSingleButton.swift; sourceTree = "<group>"; };
+		0E49EF591F783C6000F0F01D /* ModAlertWebViewSingleButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModAlertWebViewSingleButton.xib; sourceTree = "<group>"; };
+		0E49EF6A1F783D1300F0F01D /* CardBounceTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardBounceTransition.swift; sourceTree = "<group>"; };
+		0E49EF6C1F783D8E00F0F01D /* Heading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heading.swift; sourceTree = "<group>"; };
+		0E49EF6E1F783E4400F0F01D /* DefaultButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultButton.swift; sourceTree = "<group>"; };
+		0E49EF701F783E7000F0F01D /* StylableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylableTextField.swift; sourceTree = "<group>"; };
+		0E49EF721F783EB900F0F01D /* ModSnackBarGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModSnackBarGeneral.swift; sourceTree = "<group>"; };
+		0E49EF731F783EB900F0F01D /* ModSnackBarGeneral.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModSnackBarGeneral.xib; sourceTree = "<group>"; };
+		0E49EF761F783F2700F0F01D /* StylableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylableTextView.swift; sourceTree = "<group>"; };
+		0E49EF781F783F6000F0F01D /* SimpleStylableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleStylableButton.swift; sourceTree = "<group>"; };
+		0E49EF7A1F783FCD00F0F01D /* Dispatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatch.swift; sourceTree = "<group>"; };
 		397048E000FC8ED4AAAD699E /* Pods-infoAcopio-infoAcopio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-infoAcopio-infoAcopio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-infoAcopio-infoAcopio/Pods-infoAcopio-infoAcopio.debug.xcconfig"; sourceTree = "<group>"; };
 		5DD599EB80A753A848A6387F /* Pods_infoAcopio_infoAcopio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_infoAcopio_infoAcopio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BBDA7C1736D5AFE5F4B1CB /* Pods-infoAcopio-infoAcopio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-infoAcopio-infoAcopio.release.xcconfig"; path = "Pods/Target Support Files/Pods-infoAcopio-infoAcopio/Pods-infoAcopio-infoAcopio.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +174,7 @@
 				0E0F50E51F76488700C2FB0E /* Models */,
 				0E0F50E61F76488700C2FB0E /* Views */,
 				0E0F50E31F76486000C2FB0E /* Utils */,
+				0E49EF691F783CF000F0F01D /* Transitions */,
 				0E0F50CE1F76483700C2FB0E /* AppDelegate.swift */,
 				0E0F50D81F76483700C2FB0E /* Assets.xcassets */,
 				0E0F50DA1F76483700C2FB0E /* LaunchScreen.storyboard */,
@@ -135,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				0E0F50E81F7648C000C2FB0E /* cdmx.json */,
+				0E49EF7A1F783FCD00F0F01D /* Dispatch.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -143,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				0E0F50D01F76483700C2FB0E /* ViewController.swift */,
+				0E49EF461F783A5700F0F01D /* BaseViewController.swift */,
+				0E49EF481F783C0B00F0F01D /* AlertViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +233,7 @@
 		0E49EF1C1F7835BA00F0F01D /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				0E49EF4A1F783C6000F0F01D /* Alerts */,
 				0E49EF1D1F7835C500F0F01D /* CarouselComponent.swift */,
 				0E49EF1E1F7835C500F0F01D /* CarouselComponent.xib */,
 				0E49EF3D1F78378A00F0F01D /* RatingComponent.swift */,
@@ -211,6 +268,8 @@
 			isa = PBXGroup;
 			children = (
 				0E49EF291F78366800F0F01D /* ButtonStyleSheet.swift */,
+				0E49EF6E1F783E4400F0F01D /* DefaultButton.swift */,
+				0E49EF781F783F6000F0F01D /* SimpleStylableButton.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -240,6 +299,9 @@
 				0E49EF321F78366800F0F01D /* ViewStyleSheet.swift */,
 				0E49EF411F7837BA00F0F01D /* Stylable.swift */,
 				0E49EF431F7837E700F0F01D /* RoundRect.swift */,
+				0E49EF6C1F783D8E00F0F01D /* Heading.swift */,
+				0E49EF701F783E7000F0F01D /* StylableTextField.swift */,
+				0E49EF761F783F2700F0F01D /* StylableTextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -253,6 +315,38 @@
 				0E07EDFA1F76575C0006D5F2 /* ModGenericCollectionViewDataSource.swift */,
 			);
 			path = CollectionViewModel;
+			sourceTree = "<group>";
+		};
+		0E49EF4A1F783C6000F0F01D /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				0E49EF721F783EB900F0F01D /* ModSnackBarGeneral.swift */,
+				0E49EF731F783EB900F0F01D /* ModSnackBarGeneral.xib */,
+				0E49EF4B1F783C6000F0F01D /* AlertPresenter.swift */,
+				0E49EF4C1F783C6000F0F01D /* ModAlertCarousel.swift */,
+				0E49EF4D1F783C6000F0F01D /* ModAlertCarousel.xib */,
+				0E49EF4E1F783C6000F0F01D /* ModAlertCarouselDiferential.swift */,
+				0E49EF4F1F783C6000F0F01D /* ModAlertCarouselDiferential.xib */,
+				0E49EF501F783C6000F0F01D /* ModAlertDoubleButton.swift */,
+				0E49EF511F783C6000F0F01D /* ModAlertDoubleButton.xib */,
+				0E49EF521F783C6000F0F01D /* ModAlertErrorSingleButton.swift */,
+				0E49EF531F783C6000F0F01D /* ModAlertErrorSingleButton.xib */,
+				0E49EF541F783C6000F0F01D /* ModAlertInputSingleButton.swift */,
+				0E49EF551F783C6000F0F01D /* ModAlertInputSingleButton.xib */,
+				0E49EF561F783C6000F0F01D /* ModAlertSingleButton.swift */,
+				0E49EF571F783C6000F0F01D /* ModAlertSingleButton.xib */,
+				0E49EF581F783C6000F0F01D /* ModAlertWebViewSingleButton.swift */,
+				0E49EF591F783C6000F0F01D /* ModAlertWebViewSingleButton.xib */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		0E49EF691F783CF000F0F01D /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				0E49EF6A1F783D1300F0F01D /* CardBounceTransition.swift */,
+			);
+			path = Transitions;
 			sourceTree = "<group>";
 		};
 		D2B77044708454505EF54CD7 /* Frameworks */ = {
@@ -339,10 +433,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E0F50DC1F76483700C2FB0E /* LaunchScreen.storyboard in Resources */,
+				0E49EF681F783C6000F0F01D /* ModAlertWebViewSingleButton.xib in Resources */,
+				0E49EF5C1F783C6000F0F01D /* ModAlertCarousel.xib in Resources */,
 				0E0F50E91F7648C000C2FB0E /* cdmx.json in Resources */,
+				0E49EF751F783EB900F0F01D /* ModSnackBarGeneral.xib in Resources */,
+				0E49EF661F783C6000F0F01D /* ModAlertSingleButton.xib in Resources */,
 				0E0F50D91F76483700C2FB0E /* Assets.xcassets in Resources */,
+				0E49EF601F783C6000F0F01D /* ModAlertDoubleButton.xib in Resources */,
 				0E49EF201F7835C500F0F01D /* CarouselComponent.xib in Resources */,
+				0E49EF5E1F783C6000F0F01D /* ModAlertCarouselDiferential.xib in Resources */,
 				0E49EF401F78378A00F0F01D /* RatingComponent.xib in Resources */,
+				0E49EF621F783C6000F0F01D /* ModAlertErrorSingleButton.xib in Resources */,
+				0E49EF641F783C6000F0F01D /* ModAlertInputSingleButton.xib in Resources */,
 				0E0F50D41F76483700C2FB0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,26 +504,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E49EF791F783F6000F0F01D /* SimpleStylableButton.swift in Sources */,
+				0E49EF6D1F783D8E00F0F01D /* Heading.swift in Sources */,
+				0E49EF631F783C6000F0F01D /* ModAlertInputSingleButton.swift in Sources */,
 				0E49EF441F7837E700F0F01D /* RoundRect.swift in Sources */,
 				0E0F50D11F76483700C2FB0E /* ViewController.swift in Sources */,
+				0E49EF5F1F783C6000F0F01D /* ModAlertDoubleButton.swift in Sources */,
 				0E49EF331F78366800F0F01D /* Colors.swift in Sources */,
 				0E49EF341F78366800F0F01D /* Fonts.swift in Sources */,
 				0E07EDF71F76570F0006D5F2 /* CollectionSectionModel.swift in Sources */,
+				0E49EF5A1F783C6000F0F01D /* AlertPresenter.swift in Sources */,
 				0E07EDFB1F76575C0006D5F2 /* ModGenericCollectionViewDataSource.swift in Sources */,
+				0E49EF5B1F783C6000F0F01D /* ModAlertCarousel.swift in Sources */,
 				0E49EF1F1F7835C500F0F01D /* CarouselComponent.swift in Sources */,
+				0E49EF6F1F783E4400F0F01D /* DefaultButton.swift in Sources */,
+				0E49EF6B1F783D1300F0F01D /* CardBounceTransition.swift in Sources */,
 				0E49EF361F78366800F0F01D /* ButtonStyleSheet.swift in Sources */,
+				0E49EF611F783C6000F0F01D /* ModAlertErrorSingleButton.swift in Sources */,
 				0E49EF351F78366800F0F01D /* Sizes.swift in Sources */,
+				0E49EF651F783C6000F0F01D /* ModAlertSingleButton.swift in Sources */,
 				0E07EDF31F764E510006D5F2 /* GatheringCdmxModel.swift in Sources */,
+				0E49EF711F783E7000F0F01D /* StylableTextField.swift in Sources */,
+				0E49EF741F783EB900F0F01D /* ModSnackBarGeneral.swift in Sources */,
 				0E49EF3A1F78366800F0F01D /* Typography.swift in Sources */,
+				0E49EF5D1F783C6000F0F01D /* ModAlertCarouselDiferential.swift in Sources */,
+				0E49EF491F783C0B00F0F01D /* AlertViewController.swift in Sources */,
 				0E49EF221F78360500F0F01D /* ModCollectionViewReusableView.swift in Sources */,
+				0E49EF771F783F2700F0F01D /* StylableTextView.swift in Sources */,
+				0E49EF7B1F783FCD00F0F01D /* Dispatch.swift in Sources */,
 				0E49EF1B1F78356900F0F01D /* ModCollectionViewCell.swift in Sources */,
 				0E07EDF91F7657230006D5F2 /* CollectionItemModel.swift in Sources */,
 				0E49EF421F7837BA00F0F01D /* Stylable.swift in Sources */,
 				0E49EF381F78366800F0F01D /* Styles.swift in Sources */,
 				0E49EF371F78366800F0F01D /* RatingComponentStyleSheet.swift in Sources */,
+				0E49EF671F783C6000F0F01D /* ModAlertWebViewSingleButton.swift in Sources */,
 				0E0F50D71F76483700C2FB0E /* infoAcopio.xcdatamodeld in Sources */,
 				0E49EF3F1F78378A00F0F01D /* RatingComponent.swift in Sources */,
 				0E49EF3B1F78366800F0F01D /* ShadowViewStyleSheet.swift in Sources */,
+				0E49EF471F783A5700F0F01D /* BaseViewController.swift in Sources */,
 				0E49EF391F78366800F0F01D /* FloatLabelStyleSheet.swift in Sources */,
 				0E0F50CF1F76483700C2FB0E /* AppDelegate.swift in Sources */,
 				0E49EF3C1F78366800F0F01D /* ViewStyleSheet.swift in Sources */,
