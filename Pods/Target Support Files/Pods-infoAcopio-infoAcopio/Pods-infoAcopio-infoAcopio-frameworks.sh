@@ -99,7 +99,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/RealmSwift/RealmSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SnapKit/SnapKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SwiftMessages/SwiftMessages.framework"
   install_framework "$BUILT_PRODUCTS_DIR/XCGLogger/XCGLogger.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -113,7 +112,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/RealmSwift/RealmSwift.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SnapKit/SnapKit.framework"
   install_framework "$BUILT_PRODUCTS_DIR/SwiftKeychainWrapper/SwiftKeychainWrapper.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SwiftMessages/SwiftMessages.framework"
   install_framework "$BUILT_PRODUCTS_DIR/XCGLogger/XCGLogger.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
